@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: workshop
 root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
