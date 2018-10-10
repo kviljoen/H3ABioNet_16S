@@ -1,5 +1,15 @@
 ---
 layout: workshop
+carpentry: 'dc'
+venue: "UCT IDM"
+humandate: '7-9 Nov 2018'
+humantime: '09:00-16:00'
+startdate: 2018-11-07
+enddate: 2018-11-09
+instructor: ["Katie Lennard","Armin Deffur"]
+helper: 
+etherpad: https://pad.carpentries.org/IDM_introduction_to_R
+
 root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
