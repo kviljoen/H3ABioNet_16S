@@ -199,15 +199,7 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
+  To participate in this workshop,
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
@@ -268,11 +260,9 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
-<div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
-  <h3>SQLite</h3>
-  
+<div id="for-everyone"> {% comment %} Start of 'SQLite' section. {% endcomment %}
+  <h4>For everyone</h4>
 <p>  
-<h4 id="for-everyone">For everyone</h4>
 For everyone
 After installing R and RStudio, you need to install the tidyverse and RSQLite packages.
 After starting RStudio, at the console type: install.packages(c("tidyverse", "RSQLite"))
