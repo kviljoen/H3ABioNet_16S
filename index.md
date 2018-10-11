@@ -14,14 +14,6 @@ root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
 
-This lesson shows how to use the
-[Software Carpentry]({{ site.swc_site }}) and
-[Data Carpentry]({{ site.dc_site }}) lesson template.
-For guidelines on how to help improve our lessons and this template,
-please see [the contribution guidelines][contributing];
-for guidelines on how to set up your machine to preview changes locally,
-please see [the setup instructions]({{ page.root }}{% link setup.md %}).
-
 > ## Prerequisites
 >
 > You should have your own laptop with R and RStudio installed. Please see the links below for installation.
@@ -191,3 +183,98 @@ please see [the setup instructions]({{ page.root }}{% link setup.md %}).
 {% endif %}
 
 <hr/>
+
+{% comment %}
+  SETUP
+
+  Delete irrelevant sections from the setup instructions.  Each
+  section is inside a 'div' without any classes to make the beginning
+  and end easier to find.
+
+  This is the other place where people frequently make mistakes, so
+  please preview your site before committing, and make sure to run
+  'tools/check' as well.
+{% endcomment %}
+
+<h2 id="setup">Setup</h2>
+
+<p>
+  To participate in a
+  {% if page.carpentry == "swc" %}
+  Software Carpentry
+  {% elsif page.carpentry == "dc" %}
+  Data Carpentry
+  {% elsif page.carpentry == "lc" %}
+  Library Carpentry
+  {% endif %}
+  workshop,
+  you will need access to the software described below.
+  In addition, you will need an up-to-date web browser.
+</p>
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+
+<div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
+  <h3>R</h3>
+
+  <p>
+    <a href="https://www.r-project.org">R</a> is a programming language
+    that is especially powerful for data exploration, visualization, and
+    statistical analysis. To interact with R, we use
+    <a href="https://www.rstudio.com/">RStudio</a>.
+  </p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="r-windows">Windows</h4>
+      <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
+      <p>
+        Install R by downloading and running
+        <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
+        from <a href="https://cran.r-project.org/index.html">CRAN</a>.
+        Also, please install the
+        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+        Note that if you have separate user and admin accounts, you should run the 
+        installers as administrator (right-click on .exe file and select "Run as 
+        administrator" instead of double-clicking). Otherwise problems may occur later, 
+        for example when installing R packages.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="r-macosx">macOS</h4>
+      <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
+      <p>
+        Install R by downloading and running
+        <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
+        from <a href="https://cran.r-project.org/index.html">CRAN</a>.
+        Also, please install the
+        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="r-linux">Linux</h4>
+      <p>
+        You can download the binary files for your distribution
+        from <a href="https://cran.r-project.org/index.html">CRAN</a>. Or
+        you can use your package manager (e.g. for Debian/Ubuntu
+        run <code>sudo apt-get install r-base</code> and for Fedora run
+        <code>sudo dnf install R</code>).  Also, please install the
+        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+      </p>
+    </div>
+  </div>
+</div> {% comment %} End of 'R' section. {% endcomment %}
+
+<div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
+  <h3>SQLite</h3>
+  
+<p>  
+<h4 id="for-everyone">For everyone</h4>
+For everyone
+After installing R and RStudio, you need to install the tidyverse and RSQLite packages.
+After starting RStudio, at the console type: install.packages(c("tidyverse", "RSQLite"))
+</p>
+
