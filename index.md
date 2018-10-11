@@ -1,14 +1,14 @@
 ---
 layout: workshop
 carpentry: 'dc'
-venue: "UCT IDM"
+venue: "UCT IDM presents: Introduction to R"
 humandate: '7-9 Nov 2018'
 humantime: '09:00-16:00'
 startdate: 2018-11-07
 enddate: 2018-11-09
 instructor: ["Katie Lennard","Armin Deffur"]
 helper: 
-etherpad: https://pad.carpentries.org/IDM_introduction_to_R
+collaborative_notes: https://pad.carpentries.org/IDM_introduction_to_R
 
 root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
@@ -146,7 +146,23 @@ please see [the setup instructions]({{ page.root }}{% link setup.md %}).
 {% elsif page.carpentry == "lc" %}
   {% include lc/schedule.html %}
 {% endif %}
+{% comment %}
+  Collaborative Notes
 
+  If you want to use an Etherpad, go to
+
+      http://pad.software-carpentry.org/YYYY-MM-DD-site
+
+  where 'YYYY-MM-DD-site' is the identifier for your workshop,
+  e.g., '2015-06-10-esu'.
+{% endcomment %}
+{% if page.collaborative_notes %}
+<p id="collaborative_notes">
+  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+</p>
+{% endif %}
+
+<hr/>
 {% comment %}
   SYLLABUS
 
