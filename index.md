@@ -121,6 +121,7 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 </p>
 
 <hr/>
+{% comment %}
   SCHEDULE
 
   Show the workshop's schedule.  Edit the items and times in the table
