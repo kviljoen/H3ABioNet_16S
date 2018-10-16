@@ -21,8 +21,6 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 
 {% include links.md %}
 
-{% comment %}
-
 <h2 id="general">General Information</h2>
 
 {% comment %}
