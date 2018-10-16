@@ -8,6 +8,7 @@ startdate: 2018-11-07
 enddate: 2018-11-09
 instructor: ["Katie Lennard","Armin Deffur"]
 helper: 
+email: ["katieviljoen@gmail.com"]
 collaborative_notes: https://pad.carpentries.org/IDM_introduction_to_R
 
 root: .  # Is the only page that don't follow the partner /:path/index.html
