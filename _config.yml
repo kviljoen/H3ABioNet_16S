@@ -24,6 +24,9 @@ kind: "workshop"
 # Please don't change it: <USERNAME>/<PROJECT> is correct.
 repository: <USERNAME>/<PROJECT>
 
+#Display future posts test (KL)
+future: true
+
 # Email address, no mailto:
 email: ""
 
