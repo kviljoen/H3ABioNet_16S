@@ -26,7 +26,6 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 
 {% comment %}
   INTRODUCTION
-
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 {% endcomment %}
