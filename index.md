@@ -140,7 +140,7 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 {% comment %}
   Collaborative Notes
 
-  If you want to use an Etherpad, go to
+  If you want to use an Etherpad, go to:
 
       http://pad.software-carpentry.org/YYYY-MM-DD-site
 
