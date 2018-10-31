@@ -7,7 +7,7 @@ humantime: '09:00-16:00'
 startdate: 2018-11-07
 enddate: 2018-11-09
 instructor: ["Katie Lennard","Armin Deffur"]
-helper: 
+helper: ["Tim de Wet"]
 email: ["katieviljoen@gmail.com"]
 collaborative_notes: https://pad.carpentries.org/IDM_introduction_to_R
 
