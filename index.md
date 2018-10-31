@@ -3,7 +3,7 @@ layout: workshop
 carpentry: 'dc'
 venue: "UCT IDM presents: Introduction to R"
 humandate: '7-9 Nov 2018'
-humantime: '09:00-16:00'
+humantime: '09:30-16:30'
 startdate: 2018-11-07
 enddate: 2018-11-09
 instructor: ["Katie Lennard","Armin Deffur"]
