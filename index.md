@@ -264,6 +264,6 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 <p>  
 For everyone
 After installing R and RStudio, you need to install the tidyverse and RSQLite packages.
-After starting RStudio, at the console type: install.packages(c("tidyverse", "RSQLite"))
+After starting RStudio, at the console type: install.packages("tidyverse")
 </p>
 
