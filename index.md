@@ -125,6 +125,8 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 {% endcomment %}
+
+{% comment %}
 <h2 id="schedule">Schedule</h2>
 
 {% if page.carpentry == "swc" %}
@@ -134,6 +136,8 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 {% elsif page.carpentry == "lc" %}
   {% include lc/schedule.html %}
 {% endif %}
+{% endcomment %}
+
 {% comment %}
   Collaborative Notes
 
