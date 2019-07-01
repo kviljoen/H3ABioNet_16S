@@ -1,14 +1,15 @@
 ---
 layout: workshop
 carpentry: 'dc'
-venue: "H3ABioNet IDM presents: Introduction to R"
-humandate: '5-6 September 2019'
+venue: "UCT IDM presents: Introduction to R"
+humandate: '7-9 Nov 2018'
 humantime: '09:30-16:30'
-startdate: 2019-09-05
-enddate: 2019-09-06
-instructor: ["Katie Lennard"]
+startdate: 2018-11-07
+enddate: 2018-11-09
+instructor: ["Katie Lennard","Armin Deffur"]
+helper: ["Tim de Wet"]
 email: ["katieviljoen@gmail.com"]
-collaborative_notes: https://pad.carpentries.org/H3ABioNet_R
+collaborative_notes: https://pad.carpentries.org/IDM_introduction_to_R
 
 root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
@@ -16,7 +17,7 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 
 > ## Prerequisites
 >
-> You should have your access to R and RStudio via your own compute cluster.
+> You should have your own laptop with R and RStudio installed. Please see the links below for installation.
 {: .prereq}
 
 {% include links.md %}
@@ -88,7 +89,9 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must have access to R and RStudio via their own compute cluster provided by their system administrator. A few specific software packages should be installed (listed
+  <strong>Requirements:</strong> Participants must bring a laptop with a
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
+  on. They should have a few specific software packages installed (listed
   <a href="#setup">below</a>). 
 </p>
 
@@ -215,8 +218,6 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
     <a href="https://www.rstudio.com/">RStudio</a>.
   </p>
 
-{% comment %}
-
   <div class="row">
     <div class="col-md-4">
       <h4 id="r-windows">Windows</h4>
@@ -266,4 +267,3 @@ After installing R and RStudio, you need to install the tidyverse and RSQLite pa
 After starting RStudio, at the console type: install.packages("tidyverse")
 </p>
 
-{% comment %}
