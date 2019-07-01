@@ -266,4 +266,4 @@ After installing R and RStudio, you need to install the tidyverse and RSQLite pa
 After starting RStudio, at the console type: install.packages("tidyverse")
 </p>
 
-{% comment %}
+{% endcomment %}
