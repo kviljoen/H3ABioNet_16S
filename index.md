@@ -3,9 +3,6 @@ layout: workshop
 carpentry: 'dc'
 venue: "H3ABioNet IDM presents: Introduction to R"
 humandate: '5-6 September 2019'
-{% comment %}
-humantime: '09:30-16:30'
-{% endcomment %}
 startdate: 2019-09-05
 enddate: 2019-09-06
 instructor: ["Katie Lennard"]
