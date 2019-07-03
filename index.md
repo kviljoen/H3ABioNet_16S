@@ -1,7 +1,7 @@
 ---
 layout: workshop
 carpentry: 'dc'
-venue: "H3ABioNet IDM presents: Introduction to R"
+venue: "H3ABioNet presents: Introduction to R"
 humandate: '5-6 September 2019'
 startdate: 2019-09-05
 enddate: 2019-09-06
@@ -87,8 +87,7 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must have access to R and RStudio via their own compute cluster provided by their system administrator. A few specific software packages should be installed (listed
-  <a href="#setup">below</a>). 
+  <strong>Requirements:</strong> Participants must have access to R and RStudio via their own compute cluster provided by their system administrator. 
 </p>
 
 {% comment %}
