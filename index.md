@@ -1,13 +1,12 @@
 ---
 layout: workshop
 carpentry: 'dc'
-venue: "H3ABioNet presents: Introduction to R"
-humandate: '5-6 September 2019'
-startdate: 2019-09-05
-enddate: 2019-09-06
+venue: "H3ABioNet presents: 16S downstream analyses in R"
+humandate: '30 Sept - 7 October 2019'
+startdate: 2019-09-30
+enddate: 2019-10-07
 instructor: ["Katie Lennard"]
 email: ["katieviljoen@gmail.com"]
-collaborative_notes: https://pad.carpentries.org/H3ABioNet_R
 
 root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
@@ -147,9 +146,11 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
   e.g., '2015-06-10-esu'.
 {% endcomment %}
 {% if page.collaborative_notes %}
+{% comment %}
 <p id="collaborative_notes">
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
+{% comment %}
 {% endif %}
 
 <hr/>
@@ -198,14 +199,15 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 
 <p>
   To participate in this workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  you will need to follow the instructions provided on the Vula website to a) ssh into the cluster where we will demonstrate the use of Nextflow to run dada2 in an automated fashion and b) to launch RStudio via your web browser for downstream analyses.
 </p>
+{% comment %}
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+{% endcomment %}
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
