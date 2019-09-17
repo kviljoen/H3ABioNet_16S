@@ -209,13 +209,19 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 {% endcomment %}
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
-  <h3>R</h3>
+  <h3>Useful links</h3>
 
   <p>
-    <a href="https://www.r-project.org">R</a> is a programming language
-    that is especially powerful for data exploration, visualization, and
-    statistical analysis. To interact with R, we use
-    <a href="https://www.rstudio.com/">RStudio</a>.
+      <ul>
+      <li>
+          <a href="https://www.nextflow.io/docs/latest/index.html">Nextflow documentation</a>
+        </li>
+       <li><a href="https://nf-co.re/pipelines">A community effort for curated pipelines in Nextflow</a> </li>
+       <li><a href="https://nf-co.re/usage/introduction">Building your own pipeline in Nextflow using a high quality template</a> </li>
+        <li><a href="https://github.com/nextflow-io/awesome-nextflow">More Nextflow pipelines</a></li>
+        <li><a href="https://joey711.github.io/phyloseq/"> phyloseq tutorials</a></li>
+        <li><a href="https://www.davidzeleny.net/anadat-r/doku.php/en:overview"> Analysis of community ecology in R: methods theory explained</a></li>
+    </ul>
   </p>
 
 {% comment %}
