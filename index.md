@@ -217,7 +217,7 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
           <a href="https://www.nextflow.io/docs/latest/index.html">Nextflow documentation</a>
         </li>
        <li><a href="https://nf-co.re/pipelines">nf-core: A community effort for curated pipelines in Nextflow</a> </li>
-       <li><a href="https://nf-co.re/usage/introduction">Building your own pipeline in Nextflow using a high quality nf-core template</a> </li>
+       <li><a href="https://nf-co.re/developers/adding_pipelines">Building your own pipeline in Nextflow using a high quality nf-core template</a> </li>
         <li><a href="https://github.com/nextflow-io/awesome-nextflow">More Nextflow pipelines</a></li>
         <li><a href="https://joey711.github.io/phyloseq/"> phyloseq tutorials</a></li>
         <li><a href="https://www.davidzeleny.net/anadat-r/doku.php/en:overview"> Analysis of community ecology in R: methods theory explained</a></li>
