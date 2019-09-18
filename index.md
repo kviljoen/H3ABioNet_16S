@@ -219,6 +219,7 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
        <li><a href="https://nf-co.re/pipelines">nf-core: A community effort for curated pipelines in Nextflow</a> </li>
        <li><a href="https://nf-co.re/developers/adding_pipelines">Building your own pipeline in Nextflow using a high quality nf-core template</a> </li>
         <li><a href="https://github.com/nextflow-io/awesome-nextflow">More Nextflow pipelines</a></li>
+        <li>[A Nextflow report example](data/Nextflow_report_example.pdf)</li>
         <li><a href="https://gist.github.com/kviljoen/97d36c689c5c9b9c39939c7a100720b9">Microbiome custom R functions gist</a></li>
         <li><a href="https://benjjneb.github.io/dada2/training.html">Taxonomic reference databases for use with dada2</a></li>
         <li><a href="https://joey711.github.io/phyloseq/"> phyloseq tutorials</a></li>
