@@ -224,6 +224,8 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
         <li><a href="https://benjjneb.github.io/dada2/training.html">Taxonomic reference databases for use with dada2</a></li>
         <li><a href="https://joey711.github.io/phyloseq/"> phyloseq tutorials</a></li>
         <li><a href="https://www.davidzeleny.net/anadat-r/doku.php/en:overview"> Analysis of community ecology in R: methods theory explained</a></li>
+        <li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003531#ack"> On rarefaction and differential abundance testing methods compared</a></li>
+        
     </ul>
   </p>
 
