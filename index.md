@@ -2,9 +2,9 @@
 layout: workshop
 carpentry: 'dc'
 venue: "H3ABioNet presents: 16S downstream analyses in R"
-humandate: '15 Sept - 13 November 2020'
-startdate: 2020-09-15
-enddate: 2020-11-13
+humandate: '9 - 26 November 2020'
+startdate: 2021-11-09
+enddate: 2021-11-26
 instructor: ["Katie Lennard"]
 email: ["katieviljoen@gmail.com"]
 
