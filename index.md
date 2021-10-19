@@ -226,7 +226,7 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
         <li><a href="https://www.davidzeleny.net/anadat-r/doku.php/en:overview"> Analysis of community ecology in R: methods theory explained</a></li>
         <li><a href="https://www.youtube.com/watch?v=5SKloz65eYY"> metagenomeSeq for differential abundance testing: a video presentation by the author</a></li>
         <li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003531#ack"> On rarefaction and differential abundance testing methods compared</a></li>
-        <li><a href="http://cc.oulu.fi/~jarioksa/opetus/metodi/vegantutor.pdf"> Identifying factors associated with changes in microbiota composition using PERMANOVA (R package vegan) </a></li>  
+        
 
         
     </ul>
